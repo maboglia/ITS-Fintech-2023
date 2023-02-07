@@ -1,0 +1,16 @@
+package app;
+
+public class Todo {
+
+	String descrizione;
+	boolean completo;
+	
+	public Todo(String desc) {
+		descrizione = desc;
+	}
+	
+	String stampa() {
+		return descrizione;
+	}
+	
+}

@@ -22,7 +22,7 @@ public class Todo {
 		
 		risposta += " " + descrizione;
 		
-		return risposta;
+		return descrizione;
 	}
 	
 }
