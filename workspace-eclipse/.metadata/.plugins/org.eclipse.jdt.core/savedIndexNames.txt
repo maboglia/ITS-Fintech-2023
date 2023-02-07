@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\workspace-eclipse\.metadata\.plugins\org.eclipse.jdt.core
+3420782194.index
+1113720136.index
+514761309.index
+735427438.index
