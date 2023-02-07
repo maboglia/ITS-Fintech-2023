@@ -11,18 +11,12 @@ public class TodoListDemo {
 		
 		String cosaDaFare = chiediStringa();
 		
-		listaSpesa.addTodo(cosaDaFare, 0);
+		listaSpesa.addTodo("fintech", 0);
+		listaSpesa.addTodo("mobile", 1);
+		listaSpesa.addTodo("backend", 2);
 		
-		cosaDaFare = chiediStringa();
-		listaSpesa.addTodo(cosaDaFare, 1);
-		
-		cosaDaFare = chiediStringa();
-		listaSpesa.addTodo(cosaDaFare, 2);
-		
-		System.out.println(listaSpesa.getTodo(0).stampa());
 		System.out.println(listaSpesa.getTodo(1).stampa());
-		System.out.println(listaSpesa.getTodo(2).stampa());
-			
+		
 		;
 		
 		
@@ -30,17 +24,6 @@ public class TodoListDemo {
 
 	}
 	
-
-
-	private static String chiediStringa() {
-
-		System.out.println("scrivi la cosa da comprare");
-		Scanner scanner = new Scanner(System.in);
-		
-		
-		return scanner.nextLine();
-	}
-
 
 
 	static int chiediIntero() {

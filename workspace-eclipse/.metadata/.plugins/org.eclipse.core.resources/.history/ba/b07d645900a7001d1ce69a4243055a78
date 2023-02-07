@@ -2,13 +2,7 @@ package app;
 
 public class TodoList {
 
-	Todo[] lista;
-	
-	public TodoList(int nPosti) {
-		lista = new Todo[nPosti];
-	}
-	
-	
+	Todo[] lista = new Todo[10];
 	
 	void addTodo(String desc, int pos) {
 		Todo temp = new Todo(desc);
