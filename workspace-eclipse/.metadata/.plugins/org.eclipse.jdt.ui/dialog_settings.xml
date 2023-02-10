@@ -27,4 +27,17 @@
 	<section name="NewPackageWizardPage">
 		<item key="create_package_info_java" value="false"/>
 	</section>
+	<section name="FatJarPackageWizard">
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\workspace-eclipse"/>
+		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="TodoListDemo - Prj02_TodoList"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\todolist.jar"/>
+		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\todolist.jar"/>
+		</list>
+		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value=".xml"/>
+		</list>
+	</section>
 </section>
