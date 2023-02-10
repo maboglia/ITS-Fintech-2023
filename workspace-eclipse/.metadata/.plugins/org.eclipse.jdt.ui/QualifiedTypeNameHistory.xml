@@ -3,4 +3,10 @@
     <fullyQualifiedTypeName name="app.TodoList"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="studenti.Studente"/>
+    <fullyQualifiedTypeName name="studenti.Registro"/>
+    <fullyQualifiedTypeName name="forme.Segmento"/>
+    <fullyQualifiedTypeName name="forme.Triangolo"/>
+    <fullyQualifiedTypeName name="forme.Punto"/>
 </qualifiedTypeNameHistroy>
