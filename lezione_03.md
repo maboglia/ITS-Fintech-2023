@@ -4,14 +4,12 @@ title: Corso di programmazione Javascript
 paginate: true
 author: mauro
 ---
-![bg contain](./ITS-ICT-FormatPresenzatione.png)
 
 Mauro Bogliaccino
 
 # Corso Java
 
 ---
-![bg contain](./ITS-ICT-FormatPresenzatione.png)
 
 ## Obiettivo formativo
 
@@ -21,7 +19,6 @@ Mauro Bogliaccino
 * sperimentare la sintassi
 
 ---
-![bg contain](./ITS-ICT-FormatPresenzatione.png)
 
 ## caso pratico: logica di programmazione
 
@@ -29,7 +26,6 @@ Mauro Bogliaccino
 * descrivere l'algoritmo e il diagramma di flusso
 
 ---
-![bg contain](./ITS-ICT-FormatPresenzatione.png)
 
 ## esempio applicativo: Banca
 
@@ -45,14 +41,12 @@ Il programma deve poi creare un altro conto bancario chiamato contoMamma,  utili
 Su quest’ultimo conto deve essere poi applicato un interesse del 10%,  a seguito del quale viene stampato il saldo.
 
 ---
-![bg contain](./ITS-ICT-FormatPresenzatione.png)
 
 ## esercitazione 2
 
 * [schema esercizio](https://github.com/maboglia/CorsoJava/blob/master/esercitazioni/0_Tracce/JavaSE/J2SE_GestioneBanca.pdf)
 
 ---
-![bg contain](./ITS-ICT-FormatPresenzatione.png)
 
 ## esercitazione : lettura e scrittura file
 
@@ -64,7 +58,6 @@ Gli agenti di borsa della banca Fraudolent compiono operazioni finanziare quotid
 * ‘B’ è l’operazione, che può valere ‘B’ (Buy) o ‘S’ (Sell)
 
 ---
-![bg contain](./ITS-ICT-FormatPresenzatione.png)
 
 Si vuole quindi un programma che:
 
@@ -75,7 +68,6 @@ Si vuole quindi un programma che:
 * dove al posto di (nn) ho ul numero di operazioni lette, al posto di (bb) l’importo totale delle operazioni di acquisto ed in (ss) l’importo totale delle operazioni di vendita.
 
 ---
-![bg contain](./ITS-ICT-FormatPresenzatione.png)
 
 Complicazione (opzionale):
 
