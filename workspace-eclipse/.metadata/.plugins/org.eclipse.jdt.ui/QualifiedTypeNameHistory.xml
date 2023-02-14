@@ -9,4 +9,6 @@
     <fullyQualifiedTypeName name="forme.Segmento"/>
     <fullyQualifiedTypeName name="forme.Triangolo"/>
     <fullyQualifiedTypeName name="forme.Punto"/>
+    <fullyQualifiedTypeName name="model.Cliente"/>
+    <fullyQualifiedTypeName name="model.Conto"/>
 </qualifiedTypeNameHistroy>
