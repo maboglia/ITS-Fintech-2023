@@ -1,0 +1,29 @@
+List of Vehicles
+Van
+Taxi
+Police car
+Bus
+Ambulance
+Skateboard
+Baby carriage (US)/ Pram (UK)
+Bicycle
+Mountain bike
+Scooter
+Motorcycle
+Fire engine
+Crane
+Forklift
+Tractor
+Recycling truck
+Cement mixer
+Dump truck
+Subway
+Aerial tramway
+Helicopter
+Airplane
+Balloon
+Tram (UK)/ Streetcar (US)
+Carriage
+Rowboat
+Boat
+Train
