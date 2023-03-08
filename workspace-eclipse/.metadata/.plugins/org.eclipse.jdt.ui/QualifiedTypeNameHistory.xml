@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="app.TodoList"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="studenti.Studente"/>
     <fullyQualifiedTypeName name="studenti.Registro"/>
     <fullyQualifiedTypeName name="forme.Segmento"/>
@@ -11,4 +10,9 @@
     <fullyQualifiedTypeName name="forme.Punto"/>
     <fullyQualifiedTypeName name="model.Cliente"/>
     <fullyQualifiedTypeName name="model.Conto"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="controller.Rubrica"/>
+    <fullyQualifiedTypeName name="model.Contatto"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="controller.Rubrica2"/>
 </qualifiedTypeNameHistroy>
