@@ -61,7 +61,7 @@
 	<section name="SourceActionDialog.methods">
 		<item key="LimitElements" value="false"/>
 		<item key="IgnoreDefault" value="true"/>
-		<item key="StringStyle" value="0"/>
+		<item key="StringStyle" value="1"/>
 		<item key="LimitValue" value="10"/>
 		<item key="SkipNull" value="false"/>
 		<item key="ToStringTemplateSelected" value="0"/>
@@ -118,5 +118,15 @@
 				<item key="antpath" value="W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\workspace-eclipse\Prj09_Veicoli\javadoc.xml"/>
 			</section>
 		</section>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item key="showtypes" value="true"/>
+	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item key="DIALOG_X_ORIGIN" value="596"/>
+		<item key="DIALOG_Y_ORIGIN" value="124"/>
+		<item key="DIALOG_WIDTH" value="1031"/>
+		<item key="DIALOG_HEIGHT" value="869"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>
