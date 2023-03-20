@@ -1,0 +1,8 @@
+#testata {
+	width: 95%;
+	height: 50px;
+	border: 1px solid #999;
+}
+
+nav ul li {display: inline;}
+nav ul li a {text-decoration: none;}

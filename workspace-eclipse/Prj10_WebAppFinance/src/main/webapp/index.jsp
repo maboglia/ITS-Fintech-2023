@@ -1,25 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-</head>
-<body>
+<%@ include file="header.jsp" %>
 
-	<h1>Intervallo</h1>
-
-<%  String test = "pippo";    %>
-
-<ul>
-
-<% for (int i = 0; i< 10; i++){ %>	
-
-	<li><%= test %></li>
-
-<% } %>
-
-</ul>
+<%@ include file="menu.jsp" %>
 
 
-</body>
-</html>
+	<div class="container">
+	
+		<h1>ITS Finance</h1>
+	
+	<div>
+		<img alt="" src="https://www.osservatoreitalia.eu/wp-content/uploads/2018/07/forex-trading.jpg">
+	</div>
+	
+	</div>
+
+<%@ include file="footer.jsp" %>

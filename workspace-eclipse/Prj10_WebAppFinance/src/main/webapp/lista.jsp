@@ -1,21 +1,25 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
-<style>h1 {color:blue;}</style>
-
-</head>
-<body>
-
-	<h1>Portafoglio azionario di <%= request.getParameter("nome") %></h1>
 
 
-<script type="text/javascript">
-console.log('funziona');
+<h1><%= request.getAttribute("titoloPagina") %></h1>
 
-</script>
-</body>
-</html>
+<table>
+  <tr>
+    <th>Titolo</th>
+    <th>Valore</th>
+  </tr>
+
+<% String[] titoli = (String[]) request.getAttribute("elencoAzioni"); %>
+
+<% for (String titolo : titoli) { %>  
+
+  <tr>
+    <td><%= titolo %></td>
+    <td>0.50</td>
+  </tr>
+
+<% } %>
+
+</table>
+
+
+
