@@ -24,9 +24,13 @@ public class ControllerREST {
 	}
 	
 	@GetMapping("province/{id}")
-	Provincia getProvincia(@PathVariable int id) {
+	Provincia getProvincia(@PathVariable("id") int id) {
 		System.out.println(id);
-		return service.getProvinciaById(id);
+		
+		if (service.getProvinciaById(id) != null)
+			return service.getProvinciaById(id);
+		else 
+			return new Provincia();
 	}
 	
 	@GetMapping("regioni")

@@ -44,7 +44,7 @@ public class ProvinciaServiceImpl implements ProvinciaService {
 	@Override
 	public Provincia getProvinciaById(int id) {
 		// TODO Auto-generated method stub
-		return dao.getReferenceById(id);
+		return dao.findById(id).get();
 	}
 
 }
