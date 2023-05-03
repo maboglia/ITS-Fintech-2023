@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>Libreria REST</h1>
+
+<table>
+  <tr>
+    <th>Titolo</th>
+    <th>Prezzo</th>
+  </tr>
+</table>
+
+<script type="text/javascript">
+
+	const URL = "api/libri";
+	const TABELLA = document.querySelector('table');
+	
+	fetch(URL)
+		.then(res => res.json())
+		.then(risposta => {
+			
+			for(libro of risposta){
+				
+				const TR = document.createElement('tr');//riga
+				const TD1 = document.createElement('td');//cella per titolo
+				const TD2 = document.createElement('td');//cella per prezzo
+				TD1.textContent = libro.titolo
+				TD2.textContent = libro.prezzo
+				TR.append(TD1, TD2)
+				TABELLA.append(TR)
+				
+				
+			}
+			
+			
+		});
+	
+
+
+
+
+</script>
+
+
+</body>
+</html>

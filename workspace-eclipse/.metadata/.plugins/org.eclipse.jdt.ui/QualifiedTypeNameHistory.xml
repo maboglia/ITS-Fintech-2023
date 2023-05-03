@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="app.TodoList"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="studenti.Studente"/>
-    <fullyQualifiedTypeName name="studenti.Registro"/>
-    <fullyQualifiedTypeName name="forme.Segmento"/>
-    <fullyQualifiedTypeName name="forme.Triangolo"/>
-    <fullyQualifiedTypeName name="forme.Punto"/>
-    <fullyQualifiedTypeName name="model.Cliente"/>
-    <fullyQualifiedTypeName name="model.Conto"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="controller.Rubrica"/>
-    <fullyQualifiedTypeName name="model.Contatto"/>
     <fullyQualifiedTypeName name="controller.Rubrica2"/>
     <fullyQualifiedTypeName name="model.Veicolo"/>
     <fullyQualifiedTypeName name="model.Trattore"/>
@@ -40,12 +28,36 @@
     <fullyQualifiedTypeName name="java.sql.Statement"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
     <fullyQualifiedTypeName name="repo.Connessione"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="model.Game"/>
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
     <fullyQualifiedTypeName name="repo.GameDAO"/>
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.JsonArray"/>
     <fullyQualifiedTypeName name="org.json.JSONArray"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.boglia.model.Titolo"/>
+    <fullyQualifiedTypeName name="com.boglia.controller.Portafoglio"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.boglia.repos.TitoloDAO"/>
+    <fullyQualifiedTypeName name="com.boglia.services.TitoloService"/>
+    <fullyQualifiedTypeName name="com.boglia.entities.Titolo"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.boglia.repos.LibroDAO"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.boglia.services.LibroService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="com.boglia.entities.Libro"/>
 </qualifiedTypeNameHistroy>
