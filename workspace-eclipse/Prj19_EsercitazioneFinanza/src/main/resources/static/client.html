@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<ul id="lista"></ul>
+
+<script type="text/javascript">
+
+const URL = "http://localhost:9014/voci";
+const LIST = document.getElementById('lista');
+fetch(URL)
+	.then(res => res.json())
+	.then(r => {
+		for (voce of r){
+			const LI = document.createElement('li');
+			LI.textContent = voce;
+			LIST.append(LI)
+		}
+		
+	})
+
+
+</script>
+
+</body>
+</html>
