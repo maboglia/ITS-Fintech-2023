@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "voci_finaziarie")
+@Table(name = "voci_finanziarie")
 public class Glossario {
 
 	@Id

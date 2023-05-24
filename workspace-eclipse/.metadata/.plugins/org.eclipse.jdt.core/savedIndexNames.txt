@@ -67,7 +67,6 @@ INDEX VERSION 1.131+W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\workspace-
 4279211958.index
 398608365.index
 1762905878.index
-2743435445.index
 3042826299.index
 800939713.index
 1432112083.index
@@ -112,7 +111,6 @@ INDEX VERSION 1.131+W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\workspace-
 2227086630.index
 3420782194.index
 1886818174.index
-200932515.index
 4205057698.index
 14163061.index
 1164455986.index
@@ -132,7 +130,6 @@ INDEX VERSION 1.131+W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\workspace-
 3531779829.index
 735427438.index
 420388327.index
-2526852122.index
 481218651.index
 1509065887.index
 1683564200.index
@@ -188,6 +185,5 @@ INDEX VERSION 1.131+W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\workspace-
 2051100754.index
 143503471.index
 3318756479.index
-51195541.index
 2721137762.index
 3071571185.index

@@ -1,5 +1,5 @@
 
-INSERT INTO `voci_finaziarie` (`id`, `descrizione`, `collegamento`, `voce`) VALUES
+INSERT INTO `voci_finanziarie` (`id`, `descrizione`, `collegamento`, `voce`) VALUES
 (1, 'parla di acquisizione quando una società decide di rilevarne un’altra. Le acquisizioni sono strategie di crescita e possono essere ostili o consensuali.', 'https://www.ig.com/it/glossario-trading/definizione-di-acquisizione', 'Acquisizione'),
 (2, 'L’ADR (acronimo di American Depositary Receipt) è un certificato che consente di operare su azioni di aziende non-US quotate sulle borse statunitensi.', 'https://www.ig.com/it/glossario-trading/definizione-di-adr', 'ADR'),
 (3, 'Gli alert di IG (dati economici, prezzo, indicatori tecnici), anche chiamati \"trading alert\", consentono di specificare una condizione e ricevere una notifica non appena questa si verifica.', 'https://www.ig.com/it/glossario-trading/definizione-di-avvisi-di-trading', 'Alert'),
