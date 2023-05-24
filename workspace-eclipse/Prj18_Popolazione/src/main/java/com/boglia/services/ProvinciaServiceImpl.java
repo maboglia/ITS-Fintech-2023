@@ -17,6 +17,12 @@ public class ProvinciaServiceImpl implements ProvinciaService {
 	@Autowired
 	private ProvinciaDAO dao;
 	
+	List<Provincia> province;
+	
+	public ProvinciaServiceImpl() {
+		this.province = getProvince();
+	}
+	
 	@Override
 	public List<String> getRegioni() {
 
@@ -37,8 +43,12 @@ public class ProvinciaServiceImpl implements ProvinciaService {
 
 	@Override
 	public List<Provincia> getProvinceByRegione(String regione) {
-		// TODO Auto-generated method stub
-		return null;
+
+		return province
+				.stream()
+				.filter(p -> p.getRegione().equals(regione))
+				.toList();
+//		return dao.findByRegione(regione);
 	}
 
 	@Override
