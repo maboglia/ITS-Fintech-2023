@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title th:text="${titolo}">Insert title here</title>
+</head>
+<body>
+
+	<h1 th:text="${titolo}">Home page</h1>
+	
+	<form action="/voci" method="post">
+	
+		<input type="text" name="voce" placeholder="voce"><br>
+		<input type="text" name="descrizione" placeholder="descrizione"><br>
+		<input type="text" name="link" placeholder="link"><br>
+	
+		<input type="submit" value="add voce">
+	</form>
+	
+
+</body>
+</html>

@@ -30,4 +30,9 @@ public class GlossarioService {
 				.toList()
 				.get(0);
 	}
+
+	public Glossario addNuovaVoce(Glossario g) {
+		return dao.save(g);
+		
+	}
 }
