@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.boglia.entities.Glossario;
+import com.boglia.entities.StandarPoors;
 import com.boglia.services.GlossarioService;
 
 @RestController
@@ -23,6 +24,27 @@ public class ControllerRest {
 		return service.getVoci();
 	}
 	
+	@GetMapping("api/standard")
+	public List<StandarPoors> getStandards(){
+		return service.getStandarPoors();
+	}
+	
+	@GetMapping("api/sectors")
+	public List<String> getSettori(){
+		return service
+				.getStandarPoors()
+				.stream()
+				.map(stand -> stand.getGICSSector())
+				.distinct()
+				.sorted()
+				.toList();
+	}
+	
+	@GetMapping("api/standard/{sector}")
+	public List<StandarPoors> getStandards(@PathVariable("sector") String sector ){
+		return service.getStandarPoorsBySector(sector);
+	}
+		
 	@GetMapping("voce/{word}")
 	public Glossario getVoce(@PathVariable("word") String voce ) {
 		return service.getByVoce(voce);

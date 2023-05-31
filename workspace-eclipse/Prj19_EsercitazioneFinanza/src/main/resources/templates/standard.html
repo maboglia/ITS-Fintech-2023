@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title th:text="${titolo}">Insert title here</title>
+</head>
+<body>
+	<h1 th:text="${titolo}">Home page</h1>
+
+	<select id="settori">
+		<option>Scegli un settore</option>
+	</select>
+
+	<table>
+	  <tr>
+	    <th th:text="${col1}">Column 1 Heading</th>
+	    <th th:text="${col2}">Column 2 Heading</th>
+	  </tr>
+	  <tr th:each="v : ${voci}" th:object="${v}" >
+	    <td th:text="*{security}">Row 1: Col 1</td>
+	    <td th:text="*{founded}">Row 1: Col 2</td>
+	  </tr>
+	</table>
+
+<script type="text/javascript">
+
+	const TENDINA = document.getElementById('settori');
+	const URL_SETTORI = '/api/sectors';
+	
+	fetch(URL_SETTORI)
+		.then(s => s.json())
+		.then(s => {
+			for (const settore of s){
+			const option = document.createElement('option');
+			option.textContent = settore;
+			TENDINA.append(option);
+				
+			}
+		})
+	TENDINA.onchange = function(){
+		/*fetch('/api/standard/' + this.value)
+			.then(s => s.json())
+			.then(s => {
+				
+			})*/
+		location.href = '/standard/' + this.value;
+		
+		
+	}
+
+</script>
+
+
+</body>
+</html>

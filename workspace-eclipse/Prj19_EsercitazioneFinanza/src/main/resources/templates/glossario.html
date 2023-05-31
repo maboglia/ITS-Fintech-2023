@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title th:text="${titolo}">Insert title here</title>
+</head>
+<body>
+	<h1 th:text="${titolo}">Home page</h1>
+
+	<table>
+	  <tr>
+	    <th th:text="${col1}">Column 1 Heading</th>
+	    <th th:text="${col2}">Column 2 Heading</th>
+	  </tr>
+	  <tr th:each="v : ${voci}" th:object="${v}" >
+	    <td th:text="*{voce}">Row 1: Col 1</td>
+	    <td th:text="*{descrizione}">Row 1: Col 2</td>
+	  </tr>
+	</table>
+
+
+</body>
+</html>
