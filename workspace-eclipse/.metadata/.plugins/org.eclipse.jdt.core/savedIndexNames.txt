@@ -175,7 +175,6 @@ INDEX VERSION 1.131+W:\FSD_22-24\Docente\Bogliaccino\ITS-Fintech-2023\workspace-
 345796329.index
 683978089.index
 1290343839.index
-1683564200.index
 1998841684.index
 946199854.index
 2743435445.index
