@@ -19,7 +19,7 @@ public class Viaggio {
 	private int giorni;
 	private double prezzo;
 	
-	@OneToOne
+	@OneToOne()
 	private Documento documento;
 
 	public int getId() {
